@@ -1,8 +1,5 @@
 FROM golang:1.16-alpine
 
-MAINTAINER darren128 <dmrichards128@gmail.com>
-USER darren128
-
 # Compile app
 WORKDIR /app
 RUN make build
