@@ -1,4 +1,7 @@
-FROM golang:1.16-alpine
+FROM golang:1.19-alpine
+
+# Setup
+RUN apk add alpine-sdk
 
 # Compile app
 WORKDIR /app
