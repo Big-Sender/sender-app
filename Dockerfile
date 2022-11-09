@@ -5,7 +5,6 @@ USER darren128
 
 # Compile app
 WORKDIR /app
-COPY main.go .
 RUN make build
 
 COPY /app/bin/sender-app /app/sender-app
